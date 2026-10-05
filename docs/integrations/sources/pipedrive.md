@@ -174,7 +174,7 @@ If you use Airbyte Cloud and your organization restricts access to specific IPs,
 
 | Version | Date | Pull Request | Subject |
 | :------ | :--- | :----------- | :------ |
-| 3.1.0 | 2026-10-05 | [85773](https://github.com/airbytehq/airbyte/pull/85773) | Add OAuth2.0 as the default authentication, send the API token in the `x-api-token` header instead of the URL and wrap existing configs into `credentials` automatically |
+| 3.1.0 | 2026-10-05 | [85773](https://github.com/airbytehq/airbyte/pull/85773) | Add OAuth2.0 as the default authentication, send the API token in the `x-api-token` header instead of the URL, wrap existing configs into `credentials` automatically and report Pipedrive's 415 feature-not-enabled response as a configuration error |
 | 3.0.4 | 2026-09-29 | [87265](https://github.com/airbytehq/airbyte/pull/87265) | Update dependencies |
 | 3.0.3 | 2026-09-22 | [86762](https://github.com/airbytehq/airbyte/pull/86762) | Update dependencies |
 | 3.0.2 | 2026-09-15 | [86184](https://github.com/airbytehq/airbyte/pull/86184) | Update dependencies |
